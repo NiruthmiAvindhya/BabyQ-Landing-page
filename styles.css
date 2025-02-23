@@ -552,5 +552,40 @@ links */
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr; /* Stacks items in a single column */
+  }
+  .team-grid {
+    grid-template-columns: 1fr; /* Same for team section */
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    height: auto; /* Allows for flexible height */
+    padding: 50px 0; /* Adjusts padding for smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  #contact-form {
+    width: 100%; /* Ensures the form takes up full width */
+  }
+}
 }
